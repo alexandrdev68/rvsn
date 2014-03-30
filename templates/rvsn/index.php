@@ -106,8 +106,10 @@ else
 	<style type="text/css">
 		body.site
 		{
-			border-top: 3px solid <?php echo $this->params->get('templateColor');?>;
-			background-color: <?php echo $this->params->get('templateBackgroundColor');?>
+			/*border-top: 3px solid <?php echo $this->params->get('templateColor');?>;
+			background-color: <?php echo $this->params->get('templateBackgroundColor');?>*/
+			background-image:url('/templates/rvsn/img/leather_1.png');
+            border:none;
 		}
 		a
 		{
